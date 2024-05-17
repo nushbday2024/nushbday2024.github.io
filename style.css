@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://gcdnb.pbrd.co/images/dHQGhz4ECNwO.png');
+  background-size: cover; /* Ensures image covers the entire body */
+  background-position: center; /* Centers the image horizontally and vertically */
+}
+
+.open-button {
+  position: absolute;
+  bottom: 20px; /* Position button at the bottom */
+  left: 50%; /* Center button horizontally */
+  transform: translateX(-50%); /* Adjust position for centering */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Removes button border */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.open-button:hover {
+  opacity: 0.8; /* Button slightly fades on hover */
+}
